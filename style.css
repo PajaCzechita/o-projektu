@@ -1,3 +1,15 @@
+/*
+--------BARVY-------
+#F2BEsC
+#F28705
+#F2A341
+#F27405
+#D95204
+#white
+#black
+#E5E5E5 (šedá)
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +18,7 @@
   text-decoration: none;
 }
 body {
-  background-color: #fcdc29;
+  background-color: #e5e5e5;
 }
 
 .wrapper {
@@ -22,13 +34,13 @@ body {
   overflow: hidden;
 }
 .item {
-  border-top: 1px solid #ef584a;
+  border-top: 1px solid #d95204;
   overflow: hidden;
 }
 .btn {
   display: block;
   padding: 15px 20px;
-  background-color: #ff6f61;
+  background-color: #d95204;
   color: #fff;
   position: relative;
 }
@@ -39,7 +51,7 @@ body {
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 10px solid #ff6f61;
+  border-top: 10px solid #d95204;
   right: 15px;
   bottom: -10px;
   z-index: 9;
@@ -48,7 +60,7 @@ body {
   margin-right: 10px;
 }
 .subMenu {
-  background: #273057;
+  background: rgb(242, 190, 92);
   overflow: hidden;
   transition: max-height 0.7s;
   max-height: 0;
@@ -58,7 +70,7 @@ body {
   padding: 15px 20px;
   color: #fff;
   font-size: 14px;
-  border-bottom: 1px solid #394c7f;
+  border-bottom: 1px solid rgb(242, 190, 92);
   position: relative;
 }
 .subMenu a:before {
@@ -76,7 +88,7 @@ body {
   opacity: 1;
   /* background-color: #d8d824; */
   border-top: 24px solid transparent;
-  border-left: 11px solid #fcdc29;
+  border-left: 11px solid #d95204;
   border-bottom: 24px solid transparent;
 }
 .subMenu a:after {
@@ -94,35 +106,34 @@ body {
   opacity: 1;
   /* background-color: #d8d824; */
   border-top: 24px solid transparent;
-  border-right: 11px solid #fcdc29;
+  border-right: 11px solid#d95204;
   border-bottom: 24px solid transparent;
 }
 .subMenu a:hover {
-  background: #273057;
+  background: rgb(242, 190, 92);
   background: -moz-linear-gradient(
     top,
-    #273057 0%,
-    #273057 50%,
-    #394c7f 51%,
-    #394c7f 100%
+    rgb(242, 190, 92) 0%,
+    rgb(242, 190, 92) 50%,
+    rgb(242, 190, 92) 51%,
+    rgb(242, 190, 92) 100%
   );
   background: -webkit-linear-gradient(
     top,
-    #273057 0%,
-    #273057 50%,
-    #394c7f 51%,
-    #394c7f 100%
+    rgb(242, 190, 92) 0%,
+    rgb(242, 190, 92) 50%,
+    rgb(242, 190, 92) 51%,
+    rgb(242, 190, 92) 100%
   );
   background: linear-gradient(
-    to bottom,
-    #273057 0%,
-    #273057 50%,
-    #394c7f 51%,
-    #394c7f 100%
+    rgb(242, 190, 92) 0%,
+    rgb(242, 190, 92) 50%,
+    rgb(242, 190, 92) 51%,
+    rgb(242, 190, 92) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273057', endColorstr='#394c7f',GradientType=0 );
   transition: all 0.3s;
-  border-bottom: 1px solid #394c7f;
+  border-bottom: 1px solid #d95204;
 }
 .subMenu a:last-child {
   border: none;
