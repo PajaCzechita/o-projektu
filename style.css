@@ -13,13 +13,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'lato';
   text-align: center;
   list-style: none;
   text-decoration: none;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -35,6 +35,8 @@ body {
   overflow: hidden;
 }
 .item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
   border-top: 1px solid #d95204;
   overflow: hidden;
 }
@@ -70,7 +72,7 @@ body {
   display: block;
   padding: 15px 20px;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   border-bottom: 1px solid rgb(242, 190, 92);
   position: relative;
 }
