@@ -144,3 +144,25 @@ body {
 .item:target .subMenu {
   max-height: 10em;
 }
+
+h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+}
+
+.osoba{
+  padding: 15px;
+}
+.medajlonek{
+  display: flex;
+  flex-direction: column;
+}
+.medajlonek img{
+  width: 100%;
+  border-radius: 0% 100% 0% 100% / 51% 58% 42% 49%   ;
+}
+
+.osoba p{
+ padding-left: 10px;
+ padding-right: 10px;
+}
