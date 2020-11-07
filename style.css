@@ -178,3 +178,15 @@ h2, h3{
  padding-left: 10px;
  padding-right: 10px;
 }
+
+.rozlozeni{
+  display: flex;
+  flex-direction: column;
+}
+.rozlozeni p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img_zobrazeni img{
+  width: 100%;
+}
