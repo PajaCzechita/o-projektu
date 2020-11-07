@@ -17,8 +17,8 @@
   list-style: none;
   text-decoration: none;
 }
-body {
-  background-color: white;
+.hlavni_strana {
+  background:url(img/bacground_color.jpg) lightblue;
   font-family: 'Roboto', sans-serif;
 }
 
