@@ -145,6 +145,18 @@ body {
   max-height: 10em;
 }
 
+.wrapper__ome{
+  position: relative;
+  right: 0;
+  left: 0;
+  transform: translate(0%, 0%);
+  display: block;
+}
+
+.wrapper__ome .mainMenu{
+  display: inline;
+}
+
 h2, h3{
   font-family: 'Montserrat', sans-serif;
   padding: 15px;
