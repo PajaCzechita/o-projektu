@@ -16,10 +16,11 @@
   text-align: center;
   list-style: none;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .hlavni_strana {
-  background:url(img/bacground_color.jpg) lightblue;
-  font-family: 'Roboto', sans-serif;
+  background:url(img/bacground_color_II.jpg);
+  background-repeat: no-repeat;
 }
 
 .wrapper {
