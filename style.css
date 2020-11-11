@@ -162,15 +162,25 @@ h2, h3{
 .osoba{
   padding: 15px;
 }
+
+.osoba.paja {
+  flex-direction: row-reverse;
+}
+
 .medajlonek{
   display: flex;
   flex-direction: column;
 }
+
 .medajlonek img{
   width: 100%;
   border-radius: 0% 100% 0% 100% / 51% 58% 42% 49%   ;
 }
 
+.medajlonekPaja img {
+  width: 100%;
+  border-radius: 100% 0% 100% 0% / 51% 58% 42% 49%;
+}
 .osoba p{
  padding-left: 10px;
  padding-right: 10px;
@@ -203,7 +213,8 @@ h2, h3{
   .osoba h2{
     width: 100%;
   }
-  .medajlonek{
+  .medajlonek,
+  .medajlonekPaja{
     width: 40%;
   }
   .oMe{
