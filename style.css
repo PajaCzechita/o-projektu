@@ -142,7 +142,7 @@
   max-height: 10em;
 }
 
-.wrapper__ome{
+.wrapper__ome {
   position: relative;
   right: 0;
   left: 0;
@@ -150,16 +150,17 @@
   display: block;
 }
 
-.wrapper__ome .mainMenu{
+.wrapper__ome .mainMenu {
   display: inline;
 }
 
-h2, h3{
+h2,
+h3 {
   font-family: 'Montserrat', sans-serif;
   padding: 15px;
 }
 
-.osoba{
+.osoba {
   padding: 15px;
 }
 
@@ -167,64 +168,71 @@ h2, h3{
   flex-direction: row-reverse;
 }
 
-.medajlonek{
+.medajlonek {
   display: flex;
   flex-direction: column;
 }
 
-.medajlonek img{
+.medajlonek img {
   width: 100%;
-  border-radius: 0% 100% 0% 100% / 51% 58% 42% 49%   ;
+  border-radius: 0% 100% 0% 100% / 51% 58% 42% 49%;
 }
 
 .medajlonekPaja img {
   width: 100%;
   border-radius: 100% 0% 100% 0% / 51% 58% 42% 49%;
 }
-.osoba p{
- padding-left: 10px;
- padding-right: 10px;
+.osoba p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.rozlozeni{
+.rozlozeni {
   display: flex;
   flex-direction: column;
 }
-.rozlozeni p{
+.rozlozeni p {
   padding-left: 15px;
   padding-right: 15px;
 }
-.img_zobrazeni img{
+.img_zobrazeni img {
   width: 100%;
 }
 
-.projekt img{
+.projekt img {
   padding-top: 15px;
   width: 30%;
-  filter:invert(100%);
+  filter: invert(100%);
 }
 
 @media only screen and (min-width: 600px) {
-  .osoba{
+  .osoba {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .osoba h2{
+  .osoba h2 {
     width: 100%;
   }
   .medajlonek,
-  .medajlonekPaja{
+  .medajlonekPaja {
     width: 40%;
   }
-  .oMe{
+  .oMe {
     width: 40%;
-  } 
-  .projekt img{
+  }
+  .projekt img {
     width: 100px;
   }
 }
 
 @media only screen and (min-width: 750px) {
-
+  .img_zobrazeni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mobil {
+    width: 50%;
+  }
 }
