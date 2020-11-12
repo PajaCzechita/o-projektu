@@ -190,6 +190,7 @@ h3 {
 .rozlozeni {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .rozlozeni p {
   padding-left: 15px;
@@ -234,5 +235,11 @@ h3 {
   }
   .mobil {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1420px) {
+  .img_zobrazeni {
+    max-width: 80%;
   }
 }
