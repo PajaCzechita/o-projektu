@@ -207,6 +207,7 @@ h3 {
 }
 
 @media only screen and (min-width: 600px) {
+  /*
   .osoba {
     display: flex;
     flex-wrap: wrap;
@@ -222,6 +223,15 @@ h3 {
   .oMe {
     width: 40%;
   }
+  */
+.rozlozeni{
+  max-width: 600px;
+  margin: auto;
+}
+  .osoba{
+    max-width: 400px;
+    margin: auto;
+  }
   .projekt img {
     width: 100px;
   }
@@ -234,6 +244,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
   }
+<<<<<<< HEAD
   .img_zobrazeni img {
     width: fit-content;
   }
@@ -247,4 +258,16 @@ h3 {
   .mobil {
     max-width: 150%;
   }
+=======
+  /*.mobil {
+    width: 50%;
+  }*/
+}
+
+@media only screen and (min-width: 1420px) {
+  /* Dělá problém při zobrazení v 1420...vše jde pod sebe a od 1460 zase vedle
+  .img_zobrazeni {
+    max-width: 80%;
+  }*/
+>>>>>>> f851e4787d337d01235304e5186a50f89cf998b1
 }
