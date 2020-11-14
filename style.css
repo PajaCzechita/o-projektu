@@ -230,16 +230,21 @@ h3 {
 @media only screen and (min-width: 750px) {
   .img_zobrazeni {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .img_zobrazeni img {
+    width: fit-content;
+  }
   .mobil {
     width: 50%;
+    margin: 0;
   }
 }
 
 @media only screen and (min-width: 1420px) {
-  .img_zobrazeni {
-    max-width: 80%;
+  .mobil {
+    max-width: 150%;
   }
 }
